@@ -16,7 +16,7 @@
 
 	</form>
 	
-	<a href="http://localhost:8088/guestbook4/addList">메인으로 돌아가기</a>
+	<a href="${pageContext.request.contextPath}/addList">메인으로 돌아가기</a>
 	
 	
 </body>

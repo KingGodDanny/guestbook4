@@ -50,7 +50,7 @@
 				<td>${gBookVo.no }</td>
 				<td>${gBookVo.name }</td>
 				<td>${gBookVo.regdate }</td>
-				<td><a href="/guestbook4/deleteForm?no=${gBookVo.no }">삭제</a></td>
+				<td><a href="${pageContext.request.contextPath}/deleteForm?no=${gBookVo.no }">삭제</a></td>
 			</tr>
 			<tr>
 				<td colspan="4" height="60">첫번째 방명록내용<br>${gBookVo.content }</td>
